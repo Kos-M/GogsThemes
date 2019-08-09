@@ -16,9 +16,9 @@ If you find something not displayed good  , feel free to contribute
  - ```rm -r ./GogsThemes```
 
 ## Screens
-![intro]( ) ![signup]( )
-![home]( ) ![repo]( )
-![file]( )
+![intro](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/intro.png) ![signup](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/signup.png)
+![home](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/home.png) ![repo](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/repo.png)
+![file](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/file.png)
  
 
 
