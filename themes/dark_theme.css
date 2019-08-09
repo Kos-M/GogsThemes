@@ -42,6 +42,15 @@ h5,
   color: #000;
 }
 
+#file-content h1,
+#file-content h2,
+#file-content h3,
+#file-content h4,
+#file-content h5
+  {
+  color: #000 ;
+}
+
 pre.raw,
 code.raw {
   background-color: #000;
