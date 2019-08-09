@@ -1,0 +1,748 @@
+body:not(.full-width) {
+  background-color: #111 !important;
+  color: #aef;
+  background-image: url("/img/bg.jpg") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+}
+
+.following.bar.light {
+  background-color: #180f1cf0 !important;
+  border-bottom: 1px solid #000;
+  color: white !important;
+  /*background-image: url("/img/bg.jpg") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;*/
+  position: fixed;
+  top: 0;
+}
+
+.ui.container:not(.fluid) {
+  width: 70% !important;
+}
+
+.tabular .item {
+  color: #d9453d !important;
+}
+
+.tabular .item a {
+  background-color: #428bca !important;
+  color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.ui.header,
+.ui.menu,
+.ui.input input,
+.ui.button:not(.label) {
+  color: #000;
+}
+
+pre.raw,
+code.raw {
+  background-color: #000;
+  border: 1px solid #a82828;
+}
+
+.following.bar {
+  color: white !important;
+}
+
+.overflow.menu .items .item {
+  color: #3D937D;
+}
+
+.following.bar .top.menu a.item.brand {
+  color: white !important;
+}
+
+.following.bar .top.menu a.item:hover,
+.following.bar .top.menu .dropdown.item:hover,
+.following.bar .top.menu .dropdown.item.active {
+  color: white !important;
+}
+
+.following.bar .top.menu a.item:hover {
+  color: #21b28b !important;
+}
+
+.following.bar .top.menu .menu {
+  color: white !important;
+}
+
+.following.bar .head.link.item {
+  color: white !important;
+}
+
+.home {
+  padding-top: 80px;
+}
+
+.ui.left {
+  padding-left: 5px;
+}
+
+.ui.right {
+  padding-right: 5px;
+}
+
+/* .ui .text.blue a {
+    color: #14c111 !important;
+  }*/
+
+.ui .header>i+.content {
+  background-color: #2b2e33 !important;
+}
+
+footer {
+  color: white !important;
+  background-image: url("/img/bg.jpg") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+}
+
+.markdown:not(code) {
+  background-color: lavender;
+  color: black;
+}
+
+.markdown:not(code) blockquote {
+  border-left: 4px solid #fff;
+}
+
+.markdown:not(code) table th,
+.markdown:not(code) table td {
+  border: 0px solid #222 !important;
+}
+
+.markdown:not(code) span.frame>span {
+  border: 1px solid #222;
+}
+
+.home .stackable {
+  padding-top: 40px;
+}
+
+.ui.attached.header {
+  background: #191e22 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.repository .header-wrapper {
+  color: white !important;
+  background-color: transparent;
+  padding-top: 80px;
+}
+
+.repository {
+  padding-top: 80px;
+}
+
+.repository #clone-panel {
+  width: 30vw !important;
+}
+
+.repository #clone-panel input {
+  max-width: 100%;
+}
+
+.repository.branches:not(.settings) .ui.list>.item:not(:last-child) {
+  border-bottom: 1px solid #222;
+}
+
+.repository.file.list #git-stats {
+  background-color: transparent;
+  /* background-image: url("/img/blue.jpg") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;*/
+}
+
+.repository.file.list #file-content .view-raw {
+  border: 0 !important;
+}
+
+.repository.file.list #file-content .code-view * {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.repository.file.list #file-content .code-view table {
+  border: 0 !important;
+}
+
+.repository.file.list #file-content .code-view .lines-num {
+  background-color: #111 !important;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre li,
+.repository.file.list #file-content .code-view .lines-code pre li,
+.repository.file.list #file-content .code-view .lines-num ol li,
+.repository.file.list #file-content .code-view .lines-code ol li,
+.repository.file.list #file-content .code-view .lines-num .hljs li,
+.repository.file.list #file-content .code-view .lines-code .hljs li {
+  font-size: 16px;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre li.active,
+
+.repository.file.list #file-content .code-view .lines-code pre li.active,
+.repository.file.list #file-content .code-view .lines-num ol li.active,
+.repository.file.list #file-content .code-view .lines-code ol li.active,
+.repository.file.list #file-content .code-view .lines-num .hljs li.active,
+.repository.file.list #file-content .code-view .lines-code .hljs li.active {
+  background: #111;
+}
+
+.repository.file.editor .commit-form-wrapper .commit-form {
+  border: 1px solid #000;
+}
+
+.repository .diff-detail-box ol li {
+  border-bottom: 1px dashed #222;
+}
+
+.repository .diff-file-box .file-body.file-code .lines-num-old {
+  border-right: 1px solid #222;
+}
+
+.repository .head .mega-octicon {
+  color: darkslategray;
+}
+
+.guide {
+  background-color: #111!important;
+}
+
+#repo-clone-url {
+  color: black !important;
+}
+
+#repo-clone-url::-moz-selection {
+  color: white !important;
+  background-color: brown;
+}
+
+#repo-clone-url::selection {
+  color: white !important;
+  background-color: #d31932;
+}
+
+.repository.release #release-list {
+  border-top: 1px solid #222;
+}
+
+.repository.release #release-list>li .detail {
+  border-left: 1px solid #222;
+}
+
+.repository.forks .list .item {
+  border-bottom: 1px solid #222;
+}
+
+.repository.settings.collaboration .collaborator.list>.item:not(:last-child) {
+  border-bottom: 1px solid #222;
+}
+
+#search-user-box .results .item {
+  border-bottom: 1px solid #222;
+}
+
+.ui.vertical.menu .header.item {
+  background: #0d0c0f;
+  color: #c0472e;
+  text-align: center;
+  padding-left: 0;
+}
+
+.organization {
+  padding-top: 80px;
+}
+
+.organization.profile #org-avatar {
+  width: 90px;
+  height: 70px;
+  margin-right: 5px;
+}
+
+.organization.teams .repositories .item:not(:last-child),
+.organization.teams .members .item:not(:last-child) {
+  border-bottom: 1px solid #222;
+}
+
+.user:not(.icon) {
+  padding-top: 80px;
+}
+
+.ui.card {
+  background-color: transparent !important;
+  color: white !important;
+  /* background-image: url("/img/4291.jpg") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;*/
+  border: 0 !important;
+}
+
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+.dashboard {
+  padding-top: 80px;
+}
+
+.feeds .list ul li:not(:last-child) {
+  border-bottom: none;
+}
+
+.feeds .list ul li a .octicon {
+  color: #000;
+}
+
+.explore {
+  padding-top: 80px;
+}
+
+.ui.repository.list .item .ui.header {
+  color: white;
+}
+
+.ui.repository.list .item .ui.header .name {
+  color: white;
+}
+
+.ui.header .sub.header {
+  color: honeydew !important;
+}
+
+.ui.header {
+  color: honeydew !important;
+}
+
+.secondary {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.secondary .item {
+  color: #2a9193 !important;
+}
+
+.secondary .item:hover {
+  color: #000;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre,
+.repository.file.list #file-content .code-view .lines-code pre,
+.repository.file.list #file-content .code-view .lines-num ol,
+.repository.file.list #file-content .code-view .lines-code ol,
+.repository.file.list #file-content .code-view .lines-num .hljs,
+.repository.file.list #file-content .code-view .lines-code .hljs {
+  background-color: #000 !important;
+  color: #b6c5c1;
+  margin: 0;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.feeds .news>.ui.grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ActionButtons {
+  color: brown!important;
+  background-color: inherit !important;
+  border: 0.5px solid grey;
+}
+
+.CodeMirror-code {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+#repo-desc {
+  /*background-image: url(/img/fabric.jpg) !important;
+  background-repeat: repeat !important;
+  background-size: auto;
+  background-attachment: fixed !important;*/
+  text-align: center;
+  font-weight: 500;
+  color: floralwhite;
+}
+
+#repo-clone-ssh {
+  color: #000;
+}
+
+#repo-clone-https {
+  color: #000;
+}
+
+#danger_zone_edited {
+  background: #111;
+  border-color: red!important;
+}
+
+#basic_sett,
+#adv_sett,
+#adv_sett_form,
+#admin_sec_panel,
+#admin_small_panel {
+  background: #111;
+  border-color: #111!important;
+}
+
+#adv_sett_form label {
+  color: white !important;
+}
+
+#danger_zone_edited_header {
+  background: #000!important;
+}
+
+#commits-table-head tr th {
+  color: rgba(165, 48, 48, 0.9)!important;
+}
+
+.repository.file.list #repo-files-table tr:hover {
+  background-color: #122926;
+}
+
+.feeds .list ul li.private {
+  background-color: #0d1e24;
+}
+
+.feeds .list ul {
+  background-color: #111;
+}
+
+.repository .diff-file-box .code-diff tbody tr.tag-code td {
+  background-color: #2d292c !important;
+}
+
+.repository .diff-file-box .header {
+  background-color: #2d292c;
+}
+
+
+/* File Editor */
+
+.editor-toolbar a {
+  color: #fff !important;
+}
+
+.editor-toolbar a.active,
+.editor-toolbar a:hover {
+  background: #1445d0;
+  border-color: #111;
+}
+
+
+/*#########################           Syntax Higlight Theme #####################*/
+
+.hljs-comment,
+.hljs-quote {
+  color: #a2a2a26e !important;
+  font-weight: 400;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #4CAF50;
+  color: #aa759f !important;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #c18a44;
+  color: #90a959 !important;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #1c7100 !important;
+}
+
+.hljs-meta {
+  color: #444444 !important;
+}
+
+
+/* semantic */
+
+.ui.attached.segment {
+  border: 0;
+}
+
+.ui.table thead th {
+  background: #1f2a44;
+  color: indianred;
+}
+
+.ui.menu .dropdown.item .menu {
+  -webkit-box-shadow: 0 15px 30px 10px #33538c5c !important;
+  box-shadow: 0 15px 30px 10px #33538c5c !important;
+}
+
+.ui.segment {
+  background: #59555566;
+}
+
+.ui.menu .ui.dropdown .menu>.item {
+  color: #21F3C8D1 !important;
+}
+
+.ui.menu .ui.dropdown .menu>.selected.item {
+  color: #9C27B0!important;
+}
+
+.ui.checkbox input:focus~label {
+  color: #705dcf;
+}
+
+.ui.checkbox.checked label:focus {
+  color: #5d87cf;
+}
+
+.ui.checkbox label {
+  color: #705dcf;
+}
+
+.ui.checkbox.checked label {
+  color: #705dcf;
+}
+
+.ui.checkbox label.focus {
+  color: #705dcf;
+}
+
+.ui.checkbox.checked label.focus {
+  color: #5d87cf;
+}
+
+.ui.checkbox label:hover {
+  color: #5d87cf;
+}
+
+.ui.checkbox.checked label:hover {
+  color: #705dcf;
+}
+
+.ui.checkbox label,
+.ui.checkbox+label {
+  color: #5d87cf;
+}
+
+.ui.checkbox label:hover,
+.ui.checkbox+label:hover {
+  color: #5d87cf;
+}
+
+.ui.checkbox.checked label,
+.ui.checkbox.checked+label {
+  color: #5d87cf;
+}
+
+.ui.checkbox.checked label:hover,
+.ui.checkbox.cheked+label:hover {
+  color: #5d87cf;
+}
+
+.ui .dropdown .menu {
+  background-image: url("/img/wool.png") !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+}
+
+.ui .dropdown .menu a:hover {
+  color: white !important;
+}
+
+.ui.basic.button,
+.ui.basic.buttons .button {
+  background: #607D8B!important;
+}
+
+.ui.vertical.menu {
+  background: #59555566;
+}
+
+.ui.dropdown .menu .selected.item,
+.ui.dropdown.selected {
+  background: rgba(0, 0, 0, .03);
+  color: #A4D035;
+}
+
+.ui.vertical.menu .item {
+  color: darkgray;
+}
+
+.ui.menu .item>.input input {
+  background-color: #77889963;
+}
+
+.ui.menu .item:hover,
+.ui.vertical.menu .item:hover {
+  color: rgba(179, 167, 60, 0.95);
+}
+
+.ui.vertical.menu .active.item {
+  background: rgba(128, 159, 28, 0.07);
+}
+
+.ui.menu .active.item:hover,
+.ui.vertical.menu .active.item:hover {
+  color: rgba(179, 167, 60, 0.95);
+}
+
+.ui.menu .ui.dropdown .menu>.active.item {
+  color: rgba(136, 168, 35, 0.84) !important;
+}
+
+.ui.dropdown .menu>.item {
+  color: #607D8B;
+}
+
+.ui.menu.three.item .item {
+  background-color: #d2d2c2;
+}
+
+.ui.card>.extra a:not(.ui),
+.ui.cards>.card>.extra a:not(.ui) {
+  color: rgba(206, 161, 71, 0.83);
+}
+
+.ui.table {
+  background: #14151b;
+  color: #607D8B;
+}
+
+.ui.button {
+  background: #4d25bf;
+}
+
+.ui.dropdown .menu>.header {
+  color: rgba(77, 136, 138, 0.85);
+}
+
+.ui.menu .ui.dropdown .menu>.item:hover {
+  color: rgba(185, 48, 48, 0.95) !important;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="file"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="text"],
+.ui.form input[type="time"],
+.ui.form input[type="url"] {
+  background: #8591672b;
+}
+
+.ui.form input:not([type]):focus,
+.ui.form input[type="date"]:focus,
+.ui.form input[type="datetime-local"]:focus,
+.ui.form input[type="email"]:focus,
+.ui.form input[type="file"]:focus,
+.ui.form input[type="number"]:focus,
+.ui.form input[type="password"]:focus,
+.ui.form input[type="search"]:focus,
+.ui.form input[type="tel"]:focus,
+.ui.form input[type="text"]:focus,
+.ui.form input[type="time"]:focus,
+.ui.form input[type="url"]:focus {
+  color: rgb(255, 255, 255);
+  border-color: #85b7d924;
+  border-radius: .28571429rem;
+  background: #b797973d;
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(138, 155, 36, 0.84);
+  box-shadow: 0px 0px 11px 2px rgba(138, 155, 36, 0.84);
+}
+
+.ui.attached.header {
+  background: #051e2b;
+}
+
+.ui .text.black:hover {
+  color: #9f3e3e;
+}
+
+.ui.tabular.menu .active.item {
+  background: none #fff0;
+  border-color: #a6a6386e;
+}
+
+.ui.basic.button,
+.ui.basic.buttons .button {
+  background: #252b1d61 none !important;
+  color: #25997c  !important;
+  font-weight: 600;
+  -webkit-box-shadow: 0 0 8px 0px rgb(94, 41, 138);
+  box-shadow: 0 0 8px 0px rgb(94, 41, 138);
+}
+
+.ui.basic.button:hover, .ui.basic.buttons .button:hover {
+    background: #511919 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    -webkit-box-shadow: 0 0 8px 0px rgb(120, 138, 41);
+ 
+    box-shadow: 0 0 8px 0px rgb(120, 138, 41);
+}
+
+.ui.basic.label {
+  background: none #b3a94970;
+}
+
+.ui.breadcrumb a {
+  color: #aef;
+}
+
+.ui.list .list>.item .description,
+.ui.list>.item .description {
+  color: rgba(62, 185, 196, 0.77);
+}
+
+.ui.user.list .item .description a {
+  color: #266c51;
+}
+
+.ui.user.list .item .description a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.ui.buttons:not(.basic):not(.inverted)>.button,
+.ui.buttons>.ui.button:not(.basic):not(.inverted) {
+  -webkit-box-shadow: 0px 0px 15px 2px #9ec2d736;
+  box-shadow: 0px 0px 15px 2px #9ec2d736;
+}
+
+.ui.button {
+  background: transparent;
+}
+
+.ui.button:hover {
+  background-color: #334409bf;
+}
+
+.ui.card,
+.ui.cards>.card {
+  box-shadow: 0px -1px 150px 1px #0bb9b666;
+}
+
+a {
+  color: #2585b0e3;
+}
+
