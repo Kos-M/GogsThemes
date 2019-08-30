@@ -12,7 +12,7 @@ $btnShadow          : #c8c183;
 $userCardShadow     : #151124;
 $RepoFilesBg        : #0a294878;
 $codeBg             : #080705;
-$codeColor          : #9ebdb1;
+$codeColor          : #9ebdb1; 
 $codeSelected       : #001;
 $codeColorSelected  : #8f1;
 $codeDifOld         : #6f3a3a;
@@ -20,7 +20,7 @@ $privRepoBg         : #f9f8f8;
 /**** Syntax Highlighting ****/
 
 $comment            : #a2a2a26e;
-$selector           : #0086b3;
+$selector           : #0086b3; 
 
 $doctag             : #90a959;
 $attribute          : #1c7100;
@@ -140,6 +140,8 @@ footer {
 .markdown:not(code) table th,
 .markdown:not(code) table td {
     border: 0px solid $accentBase !important;
+    background-color: $codeBg;
+    color:$accentBase;
 }
 
 .markdown:not(code) span.frame>span {

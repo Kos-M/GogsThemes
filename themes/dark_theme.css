@@ -113,6 +113,8 @@ footer {
 .markdown:not(code) table th,
 .markdown:not(code) table td {
   border: 0px solid #197474 !important;
+  background-color: #080705;
+  color: #197474;
 }
 
 .markdown:not(code) span.frame > span {
@@ -928,4 +930,4 @@ footer {
   border-top: 1px solid #080705;
 }
 
-/*# sourceMappingURL=light.css.map */
+/*# sourceMappingURL=dark_theme.css.map */
