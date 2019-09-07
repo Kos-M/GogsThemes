@@ -467,6 +467,10 @@ footer {
   background: #080705;
 }
 
+.ui.table tr td {
+  border-top: none;
+}
+
 .repository.file.list #repo-files-table tr:hover {
   background-color: #080705;
 }
@@ -764,7 +768,7 @@ tr:hover a {
   background-image: url("/img/grad1.png");
   background-size: contain;
   background-attachment: fixed;
-  background-blend-mode: difference;
+  background-blend-mode: color-burn;
   color: silver;
 }
 
