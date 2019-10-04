@@ -1,0 +1,937 @@
+/**** Syntax Highlighting ****/
+body:not(.full-width) {
+  background-color: #080705;
+  background: linear-gradient(45deg, #3f0e13 0%, #471016 1%, #411211 1%, #521614 15%, #491634 15%, #4d0927 38%, #5f1417 38%, #5a1517 55%, #611812 55%, #3a0a06 62%, #691529 62%, #691529 63%, #2f092c 63%, #2f092c 69%, #12032d 69%, #12032d 100%);
+  background-size: contain;
+  background-attachment: fixed;
+  color: bisque;
+}
+
+.following.bar.light {
+  background-color: #1c1c1c !important;
+  border-bottom: 1px solid #080705;
+  color: bisque !important;
+  position: fixed;
+  top: 0;
+}
+
+.ui.container:not(.fluid) {
+  width: 70% !important;
+}
+
+.tabular .item {
+  /* Repo tabs menu */
+  color: #9b3838 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.ui.header,
+.ui.menu,
+.ui.input input,
+.ui.button:not(.label) {
+  color: #9b3838;
+}
+
+#file-content h1,
+#file-content h2,
+#file-content h3,
+#file-content h4,
+#file-content h5 {
+  color: silver;
+}
+
+pre.raw,
+code.raw {
+  background-color: #1c1c1c;
+  border: 1px solid #080705;
+}
+
+.following.bar {
+  color: #9b3838 !important;
+}
+
+.overflow.menu .items .item {
+  color: silver;
+}
+
+.following.bar .top.menu a.item.brand {
+  color: #9b3838 !important;
+}
+
+.following.bar .top.menu a.item:hover,
+.following.bar .top.menu .dropdown.item:hover,
+.following.bar .top.menu .dropdown.item.active {
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.following.bar .top.menu a.item:hover {
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.following.bar .top.menu .menu {
+  color: #9b3838 !important;
+}
+
+.following.bar .head.link.item {
+  color: #9b3838 !important;
+}
+
+.home {
+  padding-top: 80px;
+}
+
+.ui.left {
+  padding-left: 5px;
+}
+
+.ui.right {
+  padding-right: 5px;
+}
+
+.ui .header > i + .content {
+  background-color: #080705 !important;
+}
+
+footer {
+  color: silver !important;
+  background-color: #080705;
+}
+
+.markdown:not(code) {
+  background-color: #1c1c1c;
+  color: silver;
+}
+
+.markdown:not(code) blockquote {
+  border-left: 4px solid #1c1c1c;
+}
+
+.markdown:not(code) table th,
+.markdown:not(code) table td {
+  border: 0px solid #9b3838 !important;
+  background-color: #080705;
+  color: #9b3838;
+}
+
+.markdown:not(code) span.frame > span {
+  border: 1px solid #080705;
+}
+
+.markdown:not(code) pre code,
+.markdown:not(code) pre tt {
+  color: silver;
+}
+
+.markdown:not(code) .highlight pre,
+.markdown:not(code) pre {
+  background-color: #1c1c1c;
+}
+
+.home .stackable {
+  padding-top: 40px;
+}
+
+.ui.attached.header {
+  background: #1c1c1c !important;
+  color: #9b3838 !important;
+  border: none !important;
+}
+
+.repository .header-wrapper {
+  color: #9b3838 !important;
+  background-color: transparent;
+  padding-top: 80px;
+}
+
+.repository {
+  padding-top: 80px;
+}
+
+.repository #clone-panel {
+  width: 30vw !important;
+}
+
+.repository #clone-panel input {
+  max-width: 100%;
+  background-color: #1c1c1c;
+}
+
+.repository.file.list #git-stats {
+  background-color: transparent;
+}
+
+.repository.file.list #file-content .view-raw {
+  border: 0 !important;
+}
+
+.repository.file.list #file-content .code-view * {
+  font-size: 14px;
+  line-height: 19px !important;
+}
+
+.repository.file.list #file-content .code-view .lines-num span {
+  line-height: 20px !important;
+}
+
+.repository.file.list #file-content .code-view table {
+  border: 0 !important;
+}
+
+.repository.file.list #file-content .code-view .lines-num {
+  background-color: #1c1c1c !important;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre li,
+.repository.file.list #file-content .code-view .lines-code pre li,
+.repository.file.list #file-content .code-view .lines-num ol li,
+.repository.file.list #file-content .code-view .lines-code ol li,
+.repository.file.list #file-content .code-view .lines-num .hljs li,
+.repository.file.list #file-content .code-view .lines-code .hljs li {
+  font-size: 16px;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre li.active,
+.repository.file.list #file-content .code-view .lines-code pre li.active,
+.repository.file.list #file-content .code-view .lines-num ol li.active,
+.repository.file.list #file-content .code-view .lines-code ol li.active,
+.repository.file.list #file-content .code-view .lines-num .hljs li.active,
+.repository.file.list #file-content .code-view .lines-code .hljs li.active,
+.hljs-meta .hljs-attribute .hljs-name .hljs-tag .hljs-string .hljs-doctag .hljs-subst .hljs-selector-tag .hljs-keyword .hljs-quote .hljs-comment {
+  background: #001;
+  color: #8f1 !important;
+}
+
+.repository .diff-file-box .file-body.file-code .lines-num {
+  background-color: #1c1c1c !important;
+}
+
+.repository .diff-file-box .code-diff tbody tr.del-code td {
+  background-color: #6f3a3a !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+.repository .diff-file-box .code-diff tbody tr.add-code td {
+  background-color: #467b60 !important;
+  border-color: #c1e9c1 !important;
+  color: #fff !important;
+}
+
+.repository .diff-file-box .code-diff tbody tr.del-code td.add-code pre {
+  background-color: #4c296a !important;
+  color: #fff !important;
+}
+
+.repository .diff-file-box .code-diff tbody tr.del-code td.add-code {
+  background-color: #4c296a !important;
+  color: #fff !important;
+}
+
+.repository.file.editor .commit-form-wrapper .commit-form {
+  border: 1px solid #080705;
+}
+
+.repository .diff-detail-box ol li {
+  border-bottom: 1px dashed #080705;
+}
+
+.repository .diff-file-box .file-body.file-code .lines-num-old {
+  border-right: 1px solid #080705;
+}
+
+.repository .head .mega-octicon {
+  color: #9b3838;
+}
+
+.mega-octicon.octicon-repo {
+  color: steelblue !important;
+}
+
+#repo-clone-url {
+  color: #9b3838 !important;
+}
+
+#repo-clone-url::-moz-selection {
+  color: rgba(196, 45, 45, 0.95) !important;
+  background-color: #1c1c1c;
+}
+
+#repo-clone-url::selection {
+  color: rgba(196, 45, 45, 0.95) !important;
+  background-color: #1c1c1c;
+}
+
+.repository.release #release-list {
+  border-top: 1px solid #080705;
+}
+
+.repository.release #release-list > li .detail {
+  border-left: 1px solid #080705;
+}
+
+.repository.forks .list .item {
+  border-bottom: 1px solid #080705;
+}
+
+.repository.settings.collaboration .collaborator.list > .item:not(:last-child) {
+  border-bottom: 1px solid #080705;
+}
+
+#search-user-box .results .item {
+  border-bottom: 1px solid #080705;
+}
+
+.ui.vertical.menu .header.item {
+  background: #1c1c1c;
+  color: silver;
+  text-align: center;
+  padding-left: 0;
+}
+
+.organization {
+  padding-top: 80px;
+}
+
+.organization.profile #org-avatar {
+  width: 90px;
+  height: 70px;
+  margin-right: 5px;
+}
+
+.organization.teams .repositories .item:not(:last-child),
+.organization.teams .members .item:not(:last-child) {
+  border-bottom: 1px solid #080705;
+}
+
+.user:not(.icon) {
+  padding-top: 80px;
+}
+
+.ui.card {
+  background-color: transparent !important;
+  color: silver !important;
+  border: 0 !important;
+}
+
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+  border-bottom: 1px solid #080705;
+}
+
+.dashboard {
+  padding-top: 80px;
+}
+
+.feeds .list ul li:not(:last-child) {
+  border-bottom: none;
+}
+
+.feeds .list ul li a .octicon {
+  color: steelblue;
+}
+
+.explore {
+  padding-top: 80px;
+}
+
+.ui.repository.list .item .ui.header {
+  color: silver;
+}
+
+.ui.repository.list .item .ui.header .name {
+  color: silver;
+}
+
+.ui.repository.list .item .ui.header .name:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+.ui.repository.list .item:not(:first-child) {
+  border-top: none;
+}
+
+.ui.header .sub.header {
+  color: #9b3838 !important;
+}
+
+.ui.header {
+  color: #9b3838 !important;
+}
+
+.ui.form .inline.field > label,
+.ui.form .inline.field > p,
+.ui.form .inline.fields .field > label,
+.ui.form .inline.fields .field > p,
+.ui.form .inline.fields > label {
+  color: silver;
+}
+
+.secondary {
+  background-color: transparent !important;
+  color: #9b3838 !important;
+}
+
+.secondary .item {
+  color: silver !important;
+}
+
+.secondary .item:hover {
+  color: silver;
+}
+
+.repository.file.list #file-content .code-view .lines-num pre,
+.repository.file.list #file-content .code-view .lines-code pre,
+.repository.file.list #file-content .code-view .lines-num ol,
+.repository.file.list #file-content .code-view .lines-code ol,
+.repository.file.list #file-content .code-view .lines-num .hljs,
+.repository.file.list #file-content .code-view .lines-code .hljs {
+  background-color: #080705 !important;
+  color: #9ebdb1;
+  margin: 0;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.feeds .news > .ui.grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ActionButtons {
+  color: silver !important;
+  background-color: inherit !important;
+  border: 0.5px solid #080705;
+}
+
+.CodeMirror-code {
+  background-color: #080705 !important;
+  color: #9ebdb1 !important;
+}
+
+.CodeMirror-gutters {
+  background-color: #080705;
+  color: #9b3838;
+}
+
+.CodeMirror {
+  /* file edditor */
+  background: #080705;
+  color: #9ebdb1 !important;
+}
+
+#repo-desc {
+  text-align: center;
+  font-weight: 500;
+  color: silver;
+}
+
+#repo-clone-ssh {
+  color: silver;
+}
+
+#repo-clone-https {
+  color: silver;
+}
+
+#danger_zone_edited {
+  background: #1c1c1c;
+  border-color: #080705 !important;
+}
+
+#basic_sett,
+#adv_sett,
+#adv_sett_form,
+#admin_sec_panel,
+#admin_small_panel {
+  background: #1c1c1c;
+  border-color: #080705 !important;
+}
+
+#danger_zone_edited_header {
+  background: #9b3838 !important;
+}
+
+#commits-table-head tr th {
+  color: silver !important;
+}
+
+.ui.table thead th {
+  background: #1c1c1c;
+  color: silver;
+}
+
+.ui.table thead tr:hover th {
+  background: #080705;
+}
+
+.ui.table tr td {
+  border-top: none;
+}
+
+.repository.file.list #repo-files-table tr:hover {
+  background-color: #080705;
+}
+
+tr:hover a {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+#repo-files-table tr:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+#repo-files-table tr:hover span {
+  /* repo time last changed */
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.feeds .list ul li.private {
+  background-color: #1c1c1c;
+}
+
+.feeds .list ul {
+  background-color: #080705;
+  background-image: url("/img/grad1.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: difference;
+}
+
+.repository .diff-file-box .code-diff tbody tr.tag-code td {
+  background-color: #1c1c1c !important;
+}
+
+.repository .diff-file-box .header {
+  background-color: #9b3838;
+}
+
+/* File Editor */
+.editor-toolbar a {
+  color: #193c9b !important;
+}
+
+.editor-toolbar a.active,
+.editor-toolbar a:hover {
+  background: #807b54;
+  color: silver;
+  border-color: #807b54;
+}
+
+.CodeMirror {
+  border: 1px solid #080705;
+}
+
+.CodeMirror-gutters {
+  background-color: #1c1c1c;
+  border-right: none;
+  border-left: none;
+}
+
+/*#########################           Syntax Higlight Theme #####################*/
+.hljs-comment,
+.hljs-quote {
+  color: #a2a2a26e !important;
+  font-weight: 400;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #0086b3 !important;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #90a959 !important;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #1c7100 !important;
+}
+
+.hljs-meta {
+  color: #444444 !important;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3 !important;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #bfa01c !important;
+}
+
+/* Editor Highlight Theme */
+.cm-s-default .cm-comment {
+  color: #a2a2a26e !important;
+  font-weight: 400;
+}
+
+.cm-s-default .cm-def {
+  color: #9ebdb1;
+}
+
+.cm-s-default .cm-builtin {
+  color: #0086b3 !important;
+}
+
+/* semantic */
+.ui.attached.segment {
+  border: 0;
+}
+
+.ui.segment {
+  background: #1c1c1c;
+}
+
+.ui.buttons > .ui.dropdown:last-child .menu,
+.ui.menu .right.dropdown.item .menu,
+.ui.menu .right.menu .dropdown:last-child .menu {
+  background-color: #1c1c1c !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item {
+  color: #9b3838 !important;
+  background-color: #1c1c1c !important;
+}
+
+.ui.dropdown .menu > .item:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+.ui.menu {
+  background: #1c1c1c;
+}
+
+.ui.menu .ui.dropdown .menu > .selected.item {
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.ui.menu .ui.dropdown .menu > .active.item {
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.ui.selection.dropdown .menu > .item {
+  border-top: none;
+}
+
+.ui.checkbox input:focus ~ label {
+  color: silver;
+}
+
+.ui.checkbox.checked label:focus {
+  color: silver;
+}
+
+.ui.checkbox label {
+  color: silver;
+}
+
+.ui.checkbox.checked label {
+  color: silver;
+}
+
+.ui.checkbox label.focus {
+  color: silver;
+}
+
+.ui.checkbox.checked label.focus {
+  color: silver;
+}
+
+.ui.checkbox label:hover {
+  color: silver;
+}
+
+.ui.checkbox.checked label:hover {
+  color: silver;
+}
+
+.ui.checkbox label,
+.ui.checkbox + label {
+  color: silver;
+}
+
+.ui.checkbox label:hover,
+.ui.checkbox + label:hover {
+  color: silver;
+}
+
+.ui.checkbox.checked label,
+.ui.checkbox.checked + label {
+  color: silver;
+}
+
+.ui.checkbox.checked label:hover,
+.ui.checkbox.cheked + label:hover {
+  color: silver;
+}
+
+.ui.link.menu .item,
+.ui.menu .dropdown.item,
+.ui.menu .link.item,
+.ui.menu a.item {
+  color: silver;
+}
+
+.ui.link.menu .item:hover,
+.ui.menu .dropdown.item:hover,
+.ui.menu .link.item:hover,
+.ui.menu a.item:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+.ui .dropdown .menu {
+  background-color: #1c1c1c;
+}
+
+.ui .dropdown .menu a:hover {
+  color: #9b3838 !important;
+}
+
+.ui.basic.button,
+.ui.basic.buttons .button {
+  background: #9b3838 !important;
+  color: silver;
+}
+
+.ui.vertical.menu {
+  background: #1c1c1c;
+  color: #9b3838;
+}
+
+.ui.dropdown .menu .selected.item,
+.ui.dropdown.selected {
+  background: #1c1c1c;
+  color: silver;
+}
+
+.ui.vertical.menu .item {
+  color: silver;
+}
+
+.ui.menu .item {
+  font-weight: 600;
+  color: silver;
+}
+
+.ui.menu .item .active {
+  font-weight: 600;
+}
+
+.ui.menu .item > .input input {
+  background-color: #080705;
+}
+
+.ui.menu .item:hover,
+.ui.vertical.menu .item:hover {
+  color: silver;
+}
+
+.ui.vertical.menu .active.item {
+  background: #193c9b;
+}
+
+.ui.menu .active.item {
+  font-weight: 600;
+}
+
+.ui.menu .active.item:hover,
+.ui.vertical.menu .active.item:hover {
+  color: inherit;
+}
+
+.ui.dropdown .menu > .item {
+  color: silver;
+}
+
+.ui.menu.three.item .item {
+  background-color: #1c1c1c;
+  color: steelblue;
+}
+
+.ui.card > .extra a:not(.ui),
+.ui.cards > .card > .extra a:not(.ui) {
+  color: silver;
+}
+
+.ui.table {
+  background-color: #0a294878;
+  background-image: url("/img/grad1.png");
+  background-size: contain;
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+  color: silver;
+}
+
+.ui.button {
+  background: #122940 !important;
+  color: silver !important;
+}
+
+.ui.button:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+.ui.dropdown .menu > .header {
+  color: silver;
+}
+
+.ui.menu .ui.dropdown .menu > .item:hover {
+  color: rgba(196, 45, 45, 0.95) !important;
+  background-color: #1c1c1c !important;
+}
+
+.ui.dropdown .menu {
+  border: 1px solid #1c1c1c;
+}
+
+.ui.dropdown .menu > .input:not(.transparent) input {
+  background-color: #080705;
+  color: bisque;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type=date],
+.ui.form input[type=datetime-local],
+.ui.form input[type=email],
+.ui.form input[type=file],
+.ui.form input[type=number],
+.ui.form input[type=password],
+.ui.form input[type=search],
+.ui.form input[type=tel],
+.ui.form input[type=text],
+.ui.form input[type=time],
+.ui.form input[type=url] {
+  background: #080705;
+  color: silver;
+  font-weight: 600;
+}
+
+.ui.form input:not([type]):focus,
+.ui.form input[type=date]:focus,
+.ui.form input[type=datetime-local]:focus,
+.ui.form input[type=email]:focus,
+.ui.form input[type=file]:focus,
+.ui.form input[type=number]:focus,
+.ui.form input[type=password]:focus,
+.ui.form input[type=search]:focus,
+.ui.form input[type=tel]:focus,
+.ui.form input[type=text]:focus,
+.ui.form input[type=time]:focus,
+.ui.form input[type=url]:focus {
+  color: silver;
+  border-color: transparent;
+  border-radius: 0;
+  background: #080705;
+  -webkit-box-shadow: 0px 0px 8px 2px #807b54;
+  box-shadow: 0px 0px 8px 2px #807b54;
+}
+
+.ui.action.input:not([class*="left action"]) > input:focus {
+  border-right-color: transparent !important;
+}
+
+.ui.form .field > label {
+  color: silver;
+}
+
+.ui.attached.header {
+  background: #080705;
+}
+
+.ui .text.black:hover {
+  color: bisque;
+}
+
+.ui.tabular.menu .active.item {
+  background: none #1c1c1c;
+  border-color: #1c1c1c;
+  color: rgba(196, 45, 45, 0.95);
+}
+
+.ui.basic.button,
+.ui.basic.buttons .button {
+  background: #1c1c1c none !important;
+  color: silver !important;
+  font-weight: 600;
+  -webkit-box-shadow: 0 0 8px 0px #807b54;
+  box-shadow: 0 0 8px 0px #807b54;
+}
+
+.ui.basic.button:hover,
+.ui.basic.buttons .button:hover {
+  background: #1c1c1c !important;
+  color: rgba(196, 45, 45, 0.95) !important;
+  -webkit-box-shadow: 0 0 8px 0px #807b54;
+  box-shadow: 0 0 8px 0px #807b54;
+}
+
+.ui.label {
+  background-color: #4682b485;
+  color: #fff;
+}
+
+.ui.basic.label {
+  background: none #9b3838;
+}
+
+.ui.breadcrumb a {
+  color: silver;
+}
+
+.ui.list .list > .item .description,
+.ui.list > .item .description {
+  color: silver;
+}
+
+.ui.user.list .item .description a {
+  color: silver;
+}
+
+.ui.user.list .item .description a:hover {
+  text-decoration: underline;
+  color: #9b3838;
+}
+
+.ui.buttons:not(.basic):not(.inverted) > .button,
+.ui.buttons > .ui.button:not(.basic):not(.inverted) {
+  -webkit-box-shadow: 0 0 8px 0px #807b54;
+  box-shadow: 0 0 8px 0px #807b54;
+}
+
+.ui.button {
+  background: transparent;
+}
+
+.ui.button:hover {
+  background-color: #1c1c1c;
+  color: rgba(196, 45, 45, 0.95) !important;
+}
+
+.ui.card,
+.ui.cards > .card {
+  box-shadow: 0px -1px 22px 10px #151124;
+}
+
+a {
+  color: silver;
+}
+
+a:hover {
+  color: rgba(196, 45, 45, 0.95);
+}
+
+footer {
+  border-top: 1px solid #080705;
+}
+
+/*# sourceMappingURL=velvet.css.map */
