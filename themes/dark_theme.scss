@@ -42,9 +42,17 @@ body:not(.full-width) {
     top: 0;
 }
 
-.ui.container:not(.fluid) {
-    width: 70% !important;
+@media (max-width: 1199px) {
+ .ui.container:not(.fluid) {
+    width: 85% !important;
 }
+}
+@media (min-width: 1200px) {
+ .ui.container:not(.fluid) {
+    width: 75% !important;
+}
+}
+
 
 .tabular .item {
     /* Repo tabs menu */
@@ -197,7 +205,7 @@ footer {
 
 .repository.file.list #file-content .code-view * {
     font-size: 14px;
-    line-height: 19px!important;
+    line-height: 20px!important;
 }
 
 .repository.file.list #file-content .code-view .lines-num span {
@@ -210,6 +218,8 @@ footer {
 
 .repository.file.list #file-content .code-view .lines-num {
     background-color: $secondBgColor !important;
+    line-height :20px !important;
+    font-size: 12px;
 }
 
 .repository.file.list #file-content .code-view .lines-num pre li,
@@ -218,7 +228,7 @@ footer {
 .repository.file.list #file-content .code-view .lines-code ol li,
 .repository.file.list #file-content .code-view .lines-num .hljs li,
 .repository.file.list #file-content .code-view .lines-code .hljs li {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .repository.file.list #file-content .code-view .lines-num pre li.active,
