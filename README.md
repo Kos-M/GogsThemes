@@ -11,14 +11,14 @@ If you find something not displayed good  , feel free to contribute
 ## Velvet
  - ````cd $GOGS_ROOT```` 
  - ```git clone https://github.com/Kos-M/GogsThemes.git```
- - ````cat  '<link rel="stylesheet" href="/css/themes/velvet.css">' >> templates/inject/head.tmpl```` 
+ - ````echo  '<link rel="stylesheet" href="/css/themes/velvet.css">' >> templates/inject/head.tmpl```` 
  - ```mv ./GogsThemes/themes/velvet.css public/css/themes```
  - ```rm -r ./GogsThemes```
 
  ## Dark
  - ````cd $GOGS_ROOT```` 
  - ```git clone https://github.com/Kos-M/GogsThemes.git```
- - ````cat  '<link rel="stylesheet" href="/css/themes/dark_theme.css">' >> templates/inject/head.tmpl```` 
+ - ````echo  '<link rel="stylesheet" href="/css/themes/dark_theme.css">' >> templates/inject/head.tmpl```` 
  - ```mv  ./GogsThemes/img/grad1.png public/img```
  - ```mv ./GogsThemes/themes/dark_theme.css public/css/themes```
  - ```rm -r ./GogsThemes```
