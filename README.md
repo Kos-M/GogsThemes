@@ -27,16 +27,10 @@ If you find something not displayed good  , feel free to contribute
 
 ## Velvet
 
-![intro](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/intro.png) ![signup](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/signup.png)
-![home](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/home.png) ![repo](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/repo.png)
-![file](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/file.png)
+<img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/intro.png" width="250" height="150"> <img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/signup.png" width="250" height="150"> <img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/home.png" width="250" height="150"><img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/repo.png" width="250" height="150"><img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/velvet/file.png" width="250" height="150"> 
 
 ## Dark
-
-![intro](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/intro.png) ![signup](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/signup.png)
-![home](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/home.png) ![repo](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/repo.png)
-![file](https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/file.png)
- 
+<img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/intro.png" width="250" height="150"> <img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/signup.png" width="250" height="150"> <img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/home.png" width="250" height="150"><img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/repo.png" width="250" height="150"><img src="https://raw.githubusercontent.com/Kos-M/GogsThemes/master/img/screenShots/file.png" width="250" height="150">
 
 ## Bg Gradient [Dark only]
 
