@@ -46,8 +46,8 @@ or (for velvet) : ```<link rel="stylesheet" href="/css/themes/velvet.css">```
  Feel free to submit any new theme , or corrections to existing ones.
  
  Necessary tools:
-- ![NodeJs](https://nodejs.org/en/)
-- ![Sass](https://github.com/sass/sass) ``` npm install -g sass ```
+- [NodeJs](https://nodejs.org/en/download/) 
+- [Sass](https://github.com/sass/sass) ``` npm install -g sass ```
 
 Creating new theme:
 
