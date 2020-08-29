@@ -10,17 +10,22 @@ If you find something not displayed good  , feel free to contribute
 
 ## Velvet
  - ````cd $GOGS_ROOT```` 
+ - ````mkdir -p custom/templates/inject/````
+ - ````mkdir -p custom/public/css/````
  - ```git clone https://github.com/Kos-M/GogsThemes.git```
- - ````echo  '<link rel="stylesheet" href="/css/themes/velvet.css">' >> templates/inject/head.tmpl```` 
- - ```mv ./GogsThemes/themes/velvet.css public/css/themes```
+ - ````echo  '<link rel="stylesheet" href="/css/themes/velvet.css">' >> custom/templates/inject/head.tmpl```` 
+ - ````mv ./GogsThemes/themes/ custom/public/css/````
+ - ````cp -r  GogsThemes/img/ custom/public/````
  - ```rm -r ./GogsThemes```
 
  ## Dark
  - ````cd $GOGS_ROOT```` 
+ - ````mkdir -p custom/templates/inject/````
+ - ````mkdir -p custom/public/css/````
  - ```git clone https://github.com/Kos-M/GogsThemes.git```
- - ````echo  '<link rel="stylesheet" href="/css/themes/dark_theme.css">' >> templates/inject/head.tmpl```` 
- - ```mv  ./GogsThemes/img/grad1.png public/img```
- - ```mv ./GogsThemes/themes/dark_theme.css public/css/themes```
+ - ````echo  '<link rel="stylesheet" href="/css/themes/dark_theme.css">' >>  custom/templates/inject/head.tmpl```` 
+ - ````mv ./GogsThemes/themes/ custom/public/css/````
+ - ````cp -r  GogsThemes/img/ custom/public/````
  - ```rm -r ./GogsThemes```
 
 ## ScreensShots
