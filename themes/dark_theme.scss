@@ -24,6 +24,7 @@ $selector           : #0086b3;
 
 $doctag             : #90a959;
 $attribute          : #1c7100;
+$hljsTitle          : #d5bd5b;
 $meta               : #444444;
 
 body:not(.full-width) {
@@ -603,7 +604,7 @@ tr:hover a {
 .hljs-title,
 .hljs-section,
 .hljs-selector-id {
-    color: #bfa01c !important;
+    color: $hljsTitle !important;
 }
 
 
