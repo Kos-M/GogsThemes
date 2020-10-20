@@ -28,6 +28,19 @@ If you find something not displayed good  , feel free to contribute
  - ````cp -r  GogsThemes/img/ custom/public/````
  - ```rm -r ./GogsThemes```
 
+## Note: Running GOGS in Docker
+If you are running gogs in Docker, the "custom" folder path will actually be in a volume or bind mount, depending on how you set up your container at creation time.
+
+If you set up a bind mount for ```/data```, then your "custom" folder will be . For example, if your initial command to create the container looks like this:
+
+ - ```docker run --name=gogs -p 10022:22 -p 10080:3000 -v /var/gogs:/data gogs/gogs```
+
+...then your custom folder is ```/var/gogs/gogs``` (on the Docker host) and ```/data/gogs``` (in the container).
+
+If you did not specify any parameters for ```/data```, then Docker will have created a volume for you in ```/var/lib/docker/volumes/```. A quick and dirty way to identify the volume is ```docker inspect $yourgogscontainer | grep volume```, although there are probably better ways to do this.
+
+Source: https://github.com/gogs/gogs/tree/main/docker#custom-directory
+
 ## ScreensShots
 
 ## Velvet
