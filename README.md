@@ -17,6 +17,7 @@ If you find something not displayed good  , feel free to contribute
  - ````mv ./GogsThemes/themes/ custom/public/css/````
  - ````cp -r  GogsThemes/img/ custom/public/````
  - ```rm -r ./GogsThemes```
+ - ``` Restart Gogs service : service gogs restart ```
 
  ## Dark
  - ````cd $GOGS_ROOT```` 
@@ -27,6 +28,7 @@ If you find something not displayed good  , feel free to contribute
  - ````mv ./GogsThemes/themes/ custom/public/css/````
  - ````cp -r  GogsThemes/img/ custom/public/````
  - ```rm -r ./GogsThemes```
+ - ``` Restart Gogs service : service gogs restart ```
 
 ## Note: Running GOGS in Docker
 If you are running gogs in Docker, the "custom" folder path will actually be in a volume or bind mount, depending on how you set up your container at creation time.
