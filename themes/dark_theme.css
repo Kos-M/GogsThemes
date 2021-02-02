@@ -52,6 +52,10 @@ h5,
   color: #197474;
 }
 
+.ui.info.segment.top {
+    background-color: #1d1d1d!important;
+}
+
 #file-content h1,
 #file-content h2,
 #file-content h3,
