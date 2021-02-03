@@ -1,4 +1,10 @@
 /**** Syntax Highlighting ****/
+* {
+  outline: none;
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
+}
+
 body:not(.full-width) {
   background-color: #111;
   background-image: url("/img/grad1.png");
@@ -13,6 +19,10 @@ body:not(.full-width) {
   color: bisque !important;
   position: fixed;
   top: 0;
+}
+
+.ui.menu .dropdown.item .menu {
+  background: #1d1d1d;
 }
 
 @media (max-width: 1199px) {
@@ -40,6 +50,10 @@ h5,
 .ui.input input,
 .ui.button:not(.label) {
   color: #197474;
+}
+
+.ui.info.segment.top {
+    background-color: #1d1d1d!important;
 }
 
 #file-content h1,
@@ -840,8 +854,11 @@ tr:hover a {
   border-color: transparent;
   border-radius: 0;
   background: #111;
-  -webkit-box-shadow: 0px 0px 8px 2px #c8c183;
-  box-shadow: 0px 0px 8px 2px #c8c183;
+  -webkit-box-shadow: 0 0 0px 1px #605d5d;
+  box-shadow: 0 0 0px 1px #605d5d;
+
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.action.input:not([class*="left action"]) > input:focus {
@@ -871,16 +888,22 @@ tr:hover a {
   background: #1c1c1c none !important;
   color: silver !important;
   font-weight: 600;
-  -webkit-box-shadow: 0 0 8px 0px #c8c183;
-  box-shadow: 0 0 8px 0px #c8c183;
+  -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
+  box-shadow: 0 0 0px 1px #2b2b2b;
+
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.basic.button:hover,
 .ui.basic.buttons .button:hover {
   background: #1c1c1c !important;
   color: rgba(196, 45, 45, 0.95) !important;
-  -webkit-box-shadow: 0 0 8px 0px #c8c183;
-  box-shadow: 0 0 8px 0px #c8c183;
+  -webkit-box-shadow: 0 0 0px 1px #605d5d;
+  box-shadow: 0 0 0px 1px #605d5d;
+
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.label {
@@ -912,8 +935,11 @@ tr:hover a {
 
 .ui.buttons:not(.basic):not(.inverted) > .button,
 .ui.buttons > .ui.button:not(.basic):not(.inverted) {
-  -webkit-box-shadow: 0 0 8px 0px #c8c183;
-  box-shadow: 0 0 8px 0px #c8c183;
+  -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
+  box-shadow: 0 0 0px 1px #2b2b2b;
+
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.button {
@@ -928,6 +954,9 @@ tr:hover a {
 .ui.card,
 .ui.cards > .card {
   box-shadow: 0px -1px 22px 10px #151124;
+
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color,box-shadow;
 }
 
 a {

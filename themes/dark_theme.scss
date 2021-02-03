@@ -8,7 +8,7 @@ $accentBase-dark    : #4682b485;
 $active             : rgba(196, 45, 45, 0.95);
 $link               : #193c9b;
 $btnColor           : #122940;
-$btnShadow          : #c8c183;
+$btnShadow          : #2b2b2b;
 $userCardShadow     : #151124;
 $RepoFilesBg        : #0a294878;
 $codeBg             : #111;
@@ -43,6 +43,10 @@ body:not(.full-width) {
     top: 0;
 }
 
+.ui.menu .dropdown.item .menu {
+  background: #1d1d1d;
+}
+
 @media (max-width: 1199px) {
  .ui.container:not(.fluid) {
     width: 85% !important;
@@ -70,6 +74,10 @@ h5,
 .ui.input input,
 .ui.button:not(.label) {
     color: $accentBase;
+}
+
+.ui.info.segment.top {
+    background-color: #1d1d1d!important;
 }
 
 #file-content h1,
@@ -873,8 +881,8 @@ tr:hover a {
     border-color: transparent;
     border-radius: 0;
     background: $mainBgColor;
-    -webkit-box-shadow: 0px 0px 8px 2px $btnShadow;
-    box-shadow: 0px 0px 8px 2px $btnShadow;
+    -webkit-box-shadow: 0 0 0px 1px $btnShadow;
+    box-shadow: 0 0 0px 1px $btnShadow;
 }
 
 .ui.action.input:not([class*="left action"])>input:focus {
@@ -904,16 +912,16 @@ tr:hover a {
     background: $secondBgColor none !important;
     color: $mainTextColor!important;
     font-weight: 600;
-    -webkit-box-shadow: 0 0 8px 0px $btnShadow;
-    box-shadow: 0 0 8px 0px $btnShadow;
+    -webkit-box-shadow: 0 0 0px 1px $btnShadow;
+    box-shadow: 0 0 0px 1px $btnShadow;
 }
 
 .ui.basic.button:hover,
 .ui.basic.buttons .button:hover {
     background: $secondBgColor !important;
     color: $active !important;
-    -webkit-box-shadow: 0 0 8px 0px $btnShadow;
-    box-shadow: 0 0 8px 0px $btnShadow;
+    -webkit-box-shadow: 0 0 0px 1px $btnShadow;
+    box-shadow: 0 0 0px 1px $btnShadow;
 }
 
 .ui.label {
@@ -945,8 +953,8 @@ tr:hover a {
 
 .ui.buttons:not(.basic):not(.inverted)>.button,
 .ui.buttons>.ui.button:not(.basic):not(.inverted) {
-    -webkit-box-shadow: 0 0 8px 0px $btnShadow;
-    box-shadow: 0 0 8px 0px $btnShadow;
+    -webkit-box-shadow: 0 0 0px 1px $btnShadow;
+    box-shadow: 0 0 0px 1px $btnShadow;
 }
 
 .ui.button {
