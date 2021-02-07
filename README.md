@@ -82,3 +82,18 @@ Creating new theme:
 - update README.md with activate instructions and screenshots for new theme.
 - commit & push to your fork 
 - create a pull request.
+
+## Bonus - Cron Auto Switch Theme (Example)
+ - Requires GogsThemes installed ( see above , steps )
+ - Create tmpl file called `night.tmpl`  in our GOGS_ROOT/custom/templates/inject/night.tmpl
+ - add for example dark theme 
+ ```css 
+ <link rel="stylesheet" href="/css/themes/dark_theme.css">
+ ```
+  - > crontab -e
+  - Enter bellow code:
+```cron
+30 17 * * *  sudo  cat  /home/git/gogs/custom/templates/inject/night.tmpl > /home/git/gogs/custom/templates/inject/head.tmpl ; sudo  service gogs restart
+0 7  * * *  cd /home/git/gogs/custom/templates/inject/; sudo echo "" >  head.tmpl ; sudo service gogs restart
+```
+*in above example GOGS_ROOT  is `/home/git/gogs/`
