@@ -97,3 +97,8 @@ Creating new theme:
 0 7  * * *  cd /home/git/gogs/custom/templates/inject/; sudo echo "" >  head.tmpl ; sudo service gogs restart
 ```
 *in above example GOGS_ROOT  is `/home/git/gogs/`
+
+  ## > Contributors <
+<a  href="https://github.com/Kos-M/GogsThemes/graphs/contributors">
+<img  src="https://contrib.rocks/image?repo=Kos-M/GogsThemes"  />
+</a>
