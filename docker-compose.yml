@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  gogs:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: gogs
+    restart: unless-stopped 
+    volumes:
+      - "gogs_data:/data"
+      - "./themes:/data/gogs/public/css/themes"
+      - "./img:/data/gogs/public/img"
+      - "./header.tmpl:/data/gogs/templates/inject/head.tmpl"
+    ports:
+      - "10022:22"
+      - "3000:3000"
+
+volumes:
+  gogs_data:
+ 

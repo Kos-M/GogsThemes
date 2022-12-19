@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p ../custom/templates/inject/
 mkdir -p ../custom/public/css/
 rm ../custom/templates/inject/head.tmpl
