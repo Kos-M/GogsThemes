@@ -281,6 +281,16 @@ footer {
     border: 1px solid $mainBgColor;
 }
 
+.commit-form > .field textarea   {
+    background-color: $mainBgColor !important;
+    color: $mainTextColor;
+    caret-color: $secondTextColor;
+}
+.commit-form > .field textarea:focus {
+    color: $mainTextColor;
+    border-color: rgba($secondTextColor, .25);
+}
+
 .repository .diff-detail-box ol li {
     border-bottom: 1px dashed $mainBgColor;
 }
@@ -878,7 +888,7 @@ tr:hover a {
 .ui.form input[type="time"]:focus,
 .ui.form input[type="url"]:focus {
     color: $mainTextColor;
-    border-color: transparent;
+    border-color: rgba($secondTextColor, .25);
     border-radius: 0;
     background: $mainBgColor;
     -webkit-box-shadow: 0 0 0px 1px $btnShadow;

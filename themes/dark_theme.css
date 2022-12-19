@@ -251,6 +251,17 @@ footer {
   border: 1px solid #111;
 }
 
+.commit-form > .field textarea {
+  background-color: #111 !important;
+  color: silver;
+  caret-color: bisque;
+}
+
+.commit-form > .field textarea:focus {
+  color: silver;
+  border-color: rgba(255, 228, 196, 0.25);
+}
+
 .repository .diff-detail-box ol li {
   border-bottom: 1px dashed #111;
 }
@@ -845,7 +856,7 @@ tr:hover a {
 .ui.form input[type=time]:focus,
 .ui.form input[type=url]:focus {
   color: silver;
-  border-color: transparent;
+  border-color: rgba(255, 228, 196, 0.25);
   border-radius: 0;
   background: #111;
   -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
