@@ -983,3 +983,7 @@ footer {
     border-top: 1px solid $mainBgColor;
 }
 
+// Makes caret visible when editing files
+.CodeMirror-cursor {
+    border-color: $secondTextColor;
+  }

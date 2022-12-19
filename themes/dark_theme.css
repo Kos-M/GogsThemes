@@ -1,10 +1,4 @@
 /**** Syntax Highlighting ****/
-* {
-  outline: none;
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
-}
-
 body:not(.full-width) {
   background-color: #111;
   background-image: url("/img/grad1.png");
@@ -53,7 +47,7 @@ h5,
 }
 
 .ui.info.segment.top {
-    background-color: #1d1d1d!important;
+  background-color: #1d1d1d !important;
 }
 
 #file-content h1,
@@ -537,9 +531,9 @@ tr:hover a {
 
 .editor-toolbar a.active,
 .editor-toolbar a:hover {
-  background: #c8c183;
+  background: #2b2b2b;
   color: silver;
-  border-color: #c8c183;
+  border-color: #2b2b2b;
 }
 
 .CodeMirror {
@@ -555,7 +549,7 @@ tr:hover a {
 /*#########################           Syntax Higlight Theme #####################*/
 .hljs-comment,
 .hljs-quote {
-  color: #a2a2a26e !important;
+  color: rgba(162, 162, 162, 0.431372549) !important;
   font-weight: 400;
 }
 
@@ -593,7 +587,7 @@ tr:hover a {
 
 /* Editor Highlight Theme */
 .cm-s-default .cm-comment {
-  color: #a2a2a26e !important;
+  color: rgba(162, 162, 162, 0.431372549) !important;
   font-weight: 400;
 }
 
@@ -786,7 +780,7 @@ tr:hover a {
 }
 
 .ui.table {
-  background-color: #0a294878;
+  background-color: rgba(10, 41, 72, 0.4705882353);
   background-image: url("/img/grad1.png");
   background-size: contain;
   background-attachment: fixed;
@@ -854,11 +848,8 @@ tr:hover a {
   border-color: transparent;
   border-radius: 0;
   background: #111;
-  -webkit-box-shadow: 0 0 0px 1px #605d5d;
-  box-shadow: 0 0 0px 1px #605d5d;
-
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
+  box-shadow: 0 0 0px 1px #2b2b2b;
 }
 
 .ui.action.input:not([class*="left action"]) > input:focus {
@@ -890,24 +881,18 @@ tr:hover a {
   font-weight: 600;
   -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
   box-shadow: 0 0 0px 1px #2b2b2b;
-
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.basic.button:hover,
 .ui.basic.buttons .button:hover {
   background: #1c1c1c !important;
   color: rgba(196, 45, 45, 0.95) !important;
-  -webkit-box-shadow: 0 0 0px 1px #605d5d;
-  box-shadow: 0 0 0px 1px #605d5d;
-
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
+  box-shadow: 0 0 0px 1px #2b2b2b;
 }
 
 .ui.label {
-  background-color: #4682b485;
+  background-color: rgba(70, 130, 180, 0.5215686275);
   color: #fff;
 }
 
@@ -937,9 +922,6 @@ tr:hover a {
 .ui.buttons > .ui.button:not(.basic):not(.inverted) {
   -webkit-box-shadow: 0 0 0px 1px #2b2b2b;
   box-shadow: 0 0 0px 1px #2b2b2b;
-
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
 }
 
 .ui.button {
@@ -954,9 +936,6 @@ tr:hover a {
 .ui.card,
 .ui.cards > .card {
   box-shadow: 0px -1px 22px 10px #151124;
-
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color,box-shadow;
 }
 
 a {
@@ -969,6 +948,10 @@ a:hover {
 
 footer {
   border-top: 1px solid #111;
+}
+
+.CodeMirror-cursor {
+  border-color: bisque;
 }
 
 /*# sourceMappingURL=dark_theme.css.map */
