@@ -375,7 +375,13 @@ footer {
 
 .user.profile .ui.card .extra.content ul li:not(:last-child) {
     border-bottom: 1px solid $mainBgColor;
+    color: silver !important;
 }
+
+.ui.card > .content > .header, .ui.cards > .card > .content > .header {
+    color: silver !important;
+}
+
 
 .dashboard {
     padding-top: 80px;
