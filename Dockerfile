@@ -1,4 +1,4 @@
-FROM gogs/gogs:0.12
+FROM gogs/gogs:0.13
 
 # In docker "custom" dir is /data/gogs/ and there is no need to create named "custom" dir
 # there, /data/gogs/ works by default as custom.
