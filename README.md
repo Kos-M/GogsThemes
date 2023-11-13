@@ -30,7 +30,14 @@ If you find something not displayed good  , feel free to contribute
  - ```rm -r ./GogsThemes```
  - ``` Restart Gogs service : service gogs restart ```
 
+
 ## Note: Running GOGS in Docker
+### Quick start in Docker
+Use preconfigured docker-compose with theme pre-activated:
+- git clone https://github.com/Kos-M/GogsThemes .
+- docker-compose up
+- visit http://127.0.0.1:3000
+
 If you are running gogs in Docker, the "custom" folder path will actually be in a volume or bind mount, depending on how you set up your container at creation time.
 
 If you set up a bind mount for ```/data```, then your "custom" folder will be . For example, if your initial command to create the container looks like this:
